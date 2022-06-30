@@ -8,6 +8,8 @@ public class Chunk : MonoBehaviour
     public Transform spawnpos;
     public GameObject chunk;
 
+    [SerializeField] bool _hasSpawned;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,18 +19,19 @@ public class Chunk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SpawnChunk();
+        //SpawnChunk();
     }
 
     public void SpawnChunk()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(_hasSpawned == false)
         {
             Debug.Log("Spawn.");
-                {
+                
                 GameObject thing = Instantiate(chunk) as GameObject;
                 thing.transform.position = new Vector2(spawnpos.position.x, spawnpos.position.y);
-            }
+                _hasSpawned = true;
+            
             
         }
         
