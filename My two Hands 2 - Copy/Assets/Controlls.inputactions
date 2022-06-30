@@ -1,0 +1,52 @@
+{
+    "name": "Controlls",
+    "maps": [
+        {
+            "name": "Arms",
+            "id": "dc5f2b96-71fd-4791-a648-8792e70cfd11",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "55d5f084-1a96-466b-8869-a758ae0c0e85",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "485a6c78-f09e-44ea-9b1a-006c30e07a09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dc7400cb-24f4-4e53-8be6-12077aa29e7e",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "900020eb-93f3-40d2-a048-148e0870355b",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
