@@ -1,0 +1,125 @@
+{
+    "name": "Controlls",
+    "maps": [
+        {
+            "name": "Player 1",
+            "id": "dc5f2b96-71fd-4791-a648-8792e70cfd11",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "55d5f084-1a96-466b-8869-a758ae0c0e85",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "e676ba75-2c02-410c-acc1-9fb60e54681f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dc7400cb-24f4-4e53-8be6-12077aa29e7e",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce6eb7d9-28d9-4f5c-8208-9f0665fae7c7",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player 2",
+            "id": "7c711b48-7b33-465c-8165-8b9524b47fe8",
+            "actions": [
+                {
+                    "name": "Mouse",
+                    "type": "Value",
+                    "id": "06ae5d1a-30a6-4b76-acf4-e142c80f2bca",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "46319e16-99d7-4b51-874a-001a9e161a0f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5d73248f-3a96-4156-a9b2-34e339b2be3b",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "767fed54-a31f-43a7-9945-725c9907210d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Select",
+            "id": "766134f3-2a3d-4307-8947-b88d944a1996",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "fece15c3-3b8d-48a5-9157-03c9adcb467d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f2f3560e-53fd-4c32-ac6e-1226e9bd04cc",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
